@@ -157,6 +157,9 @@ TARGET_LD_PRELOAD := \
 DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(VENDOR_PATH)/compatibility_matrix.xml
 
+# Face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
