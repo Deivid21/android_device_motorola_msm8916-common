@@ -97,8 +97,7 @@ PRODUCT_PACKAGES += \
     libbson \
     libc_util \
     libboringssl-compat \
-    libshims_camera \
-    Snap
+    libshims_camera
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hacks.prop:$(TARGET_COPY_OUT_VENDOR)/hacks.prop
