@@ -94,6 +94,9 @@ BOARD_NO_CHARGER_LED := true
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Display
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
