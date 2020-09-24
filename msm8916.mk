@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
     libboringssl-compat \
     libshims_camera
 
+# Moto Camera
+PRODUCT_PACKAGES += \
+    MotCamera
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hacks.prop:$(TARGET_COPY_OUT_VENDOR)/hacks.prop
 

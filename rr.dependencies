@@ -18,6 +18,12 @@
   {
     "repository": "android_system_qcom",
     "target_path": "system/qcom"
+  },
+  {
+    "repository": "motorola_cameraone",
+    "target_path": "packages/apps/MotCamera",
+    "branch" : "ten-arm",
+    "remote" : "moto-camera"
   }
 ]
 
