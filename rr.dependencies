@@ -24,6 +24,12 @@
     "target_path": "packages/apps/MotCamera",
     "branch" : "ten-arm",
     "remote" : "moto-camera"
+  },
+  {
+    "repository": "motorola_timeweather",
+    "target_path": "packages/apps/TimeWeather",
+    "branch": "ten",
+    "remote": "motorola"
   }
 ]
 

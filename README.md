@@ -7,10 +7,12 @@ Supported devices :
 
 Surnia, Lux, Osprey, Merlin, Harpia
 
-**This tree has Moto Camera included, for build do this:**
+**This tree has Moto Camera and Moto Clock Widget included, for build do this:**
 
 `git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_cameraone.git -b ten-arm packages/apps/MotCamera`
 
 `git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_cameraone_overlay.git -b ten packages/apps/MotCamera-overlay`
+
+`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_timeweather.git -b ten packages/apps/TimeWeather`
 
 `git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b ten packages/apps/MotoSignatureApp`

@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotCamera
 
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hacks.prop:$(TARGET_COPY_OUT_VENDOR)/hacks.prop
 
